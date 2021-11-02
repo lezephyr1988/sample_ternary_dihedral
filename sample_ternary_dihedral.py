@@ -38,12 +38,6 @@ def sample_ternary_dihedral( motion_part, fixed_part, flexible_residue_string, E
           
     AUTHOR:
         Yaxia Yuan, 2021.  
-        
-    select motion & chain E & resi 36
-    set_dihedral resi 40 and name N, resi 40 and name CA, resi 40 and  name C, resi 40 and name O, -180    
-    set_dihedral resi 40 and name H, resi 40 and name N, resi 40 and  name CA, resi 40 and name C, -180    
-    E2: select motion_part & chain F & resi 85 & name SG
-    POI: select fixed_part & chain B & resi 364 & name NZ
     
     """
     distance_list=[]
